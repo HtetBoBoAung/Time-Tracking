@@ -79,6 +79,10 @@ body {
      color: #fff;
 }
 
+.profile-text:hover {
+     cursor: pointer;
+}
+
 .work {
      grid-column: 4/ 7;
      grid-row: 1/ 4;
@@ -191,6 +195,11 @@ p {
      left: 0%;
      border-radius: 19px;
      background-color: #11235A;
+}
+
+.card:hover{
+     translate: 10px;
+     transition: all ease-in-out 0.6s;
 }
 
 .card-header {
